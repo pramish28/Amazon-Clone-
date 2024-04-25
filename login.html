@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles/pages/login.css">
+    <title>Amazon</title>
+</head>
+<body>
+    <div class="container">
+        <form id="loginForm" onsubmit="loginUser(event)">
+            <h2>Login</h2>
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+            <button type="submit" onclick="loginUser(event)">Login</button>
+        </form>
+    </div>
+
+    <script src="scripts/login.js"></script>
+</body>
+</html>
